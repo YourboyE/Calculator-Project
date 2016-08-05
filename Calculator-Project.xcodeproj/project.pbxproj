@@ -12,6 +12,8 @@
 		2BFFC4CF1D47E57600454126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC4CD1D47E57600454126 /* Main.storyboard */; };
 		2BFFC4D11D47E57600454126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC4D01D47E57600454126 /* Assets.xcassets */; };
 		2BFFC4D41D47E57600454126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC4D21D47E57600454126 /* LaunchScreen.storyboard */; };
+		DB5F4D8E1D52B0B40054487A /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB5F4D8D1D52B0B40054487A /* btn.wav */; };
+		DB5F4D901D52B4C10054487A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5F4D8F1D52B4C10054487A /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2BFFC4D01D47E57600454126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BFFC4D31D47E57600454126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFFC4D51D47E57600454126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5F4D8D1D52B0B40054487A /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		DB5F4D8F1D52B4C10054487A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5F4D901D52B4C10054487A /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		2BFFC4BD1D47E57500454126 = {
 			isa = PBXGroup;
 			children = (
+				DB5F4D8F1D52B4C10054487A /* AudioToolbox.framework */,
 				2BFFC4C81D47E57600454126 /* Calculator-Project */,
 				2BFFC4C71D47E57600454126 /* Products */,
 			);
@@ -54,6 +60,7 @@
 		2BFFC4C81D47E57600454126 /* Calculator-Project */ = {
 			isa = PBXGroup;
 			children = (
+				DB5F4D8D1D52B0B40054487A /* btn.wav */,
 				2BFFC4C91D47E57600454126 /* AppDelegate.swift */,
 				2BFFC4CB1D47E57600454126 /* ViewController.swift */,
 				2BFFC4CD1D47E57600454126 /* Main.storyboard */,
@@ -126,6 +133,7 @@
 				2BFFC4D41D47E57600454126 /* LaunchScreen.storyboard in Resources */,
 				2BFFC4D11D47E57600454126 /* Assets.xcassets in Resources */,
 				2BFFC4CF1D47E57600454126 /* Main.storyboard in Resources */,
+				DB5F4D8E1D52B0B40054487A /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,7 @@
 				2BFFC4DA1D47E57600454126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
